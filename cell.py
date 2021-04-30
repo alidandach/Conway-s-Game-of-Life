@@ -15,5 +15,5 @@ class Cell:
 
     def get_print_character(self):
         if self.is_alive():
-            return 'O'
-        return '*'
+            return '1'
+        return '0'
